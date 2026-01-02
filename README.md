@@ -1,44 +1,44 @@
-# ESP32 Password-Protected Timer
+# تایمر ESP32 با حفاظت رمز
 
-## Components
+## قطعات مورد نیاز
 
-| Component            | Quantity |
+| قطعه                | تعداد     |
 |---------------------|----------|
 | ESP32               | 1        |
 | LCD 16x2            | 1        |
-| Keypad 3x4          | 1        |
-| Relay Module        | 1        |
-| Buzzer              | 1        |
-| Wiring / Breadboard | As needed|
+| کیپد 3x4            | 1        |
+| ماژول رله           | 1        |
+| بیزر                 | 1        |
+| سیم‌بندی / برد بورد | مطابق نیاز |
 
-## Connections
+## اتصالات
 
-| Device       | ESP32 Pin  |
-|--------------|------------|
-| LCD RS       | GPIO23     |
-| LCD EN       | GPIO22     |
-| LCD D4       | GPIO21     |
-| LCD D5       | GPIO19     |
-| LCD D6       | GPIO18     |
-| LCD D7       | GPIO17     |
-| LCD VCC      | 3.3V       |
-| LCD GND      | GND        |
-| Keypad R1    | GPIO13     |
-| Keypad R2    | GPIO12     |
-| Keypad R3    | GPIO14     |
-| Keypad R4    | GPIO27     |
-| Keypad C1    | GPIO26     |
-| Keypad C2    | GPIO25     |
-| Keypad C3    | GPIO33     |
-| Relay IN     | GPIO32     |
-| Relay VCC    | 3.3V       |
-| Relay GND    | GND        |
-| Buzzer       | GPIO4      |
-| Buzzer GND   | GND        |
+| قطعه / دستگاه   | پین ESP32  |
+|-----------------|------------|
+| LCD RS          | GPIO23     |
+| LCD EN          | GPIO22     |
+| LCD D4          | GPIO21     |
+| LCD D5          | GPIO19     |
+| LCD D6          | GPIO18     |
+| LCD D7          | GPIO17     |
+| LCD VCC         | 3.3V       |
+| LCD GND         | GND        |
+| کیپد R1         | GPIO13     |
+| کیپد R2         | GPIO12     |
+| کیپد R3         | GPIO14     |
+| کیپد R4         | GPIO27     |
+| کیپد C1         | GPIO26     |
+| کیپد C2         | GPIO25     |
+| کیپد C3         | GPIO33     |
+| رله IN          | GPIO32     |
+| رله VCC         | 3.3V       |
+| رله GND         | GND        |
+| بیزر            | GPIO4      |
+| بیزر GND        | GND        |
 
-> ⚠️ If LCD or Buzzer is 5V, use a **level shifter** for ESP32 GPIO.
+> ⚠️ اگر LCD یا بیزر ۵ ولت هستند، از **Level Shifter** برای پین‌های ESP32 استفاده کنید.
 
 ---
 
-### Persian Guide
-[راهنمای فارسی نوشتن README برای پروژه‌های GitHub](https://anophel.com/fa/articles/how-to-write-a-good-readme-file)
+### راهنمای انگلیسی
+[README GitHub](https://github.com/Amir-Mahdi-Barati/For-freedom-For-CS2-only-/blob/REDME/README.md)
