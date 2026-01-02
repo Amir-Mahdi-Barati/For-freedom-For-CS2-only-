@@ -36,9 +36,5 @@
 | بیزر            | GPIO4      |
 | بیزر GND        | GND        |
 
-> ⚠️ اگر LCD یا بیزر ۵ ولت هستند، از **Level Shifter** برای پین‌های ESP32 استفاده کنید.
-
----
-
-### راهنمای انگلیسی
-[README GitHub](https://github.com/Amir-Mahdi-Barati/For-freedom-For-CS2-only-/blob/REDME/README.md)
+> ⚠️ اگر LCD یا بیزر ۵ ولت هستند، از **Level Shifter** برای پین‌های ESP32 استفاده کنید
+> رمز = 7355608
